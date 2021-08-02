@@ -1,0 +1,70 @@
+body {
+  width: 2480px;
+  height: 1196px;
+  font-family: "Mulish", sans-serif;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+section {
+  text-align: center;
+  margin: 30px;
+}
+
+h3 {
+  margin-top: 37px;
+  font-size: 1.6875rem; /* 27px */
+}
+
+.action span {
+  padding: 0 20px;
+}
+
+i.fa-star {
+  color: #f69c2d;
+}
+
+i.fa-heart {
+  color: #e9ecef;
+}
+
+.action,
+.short-description {
+  margin: 20px auto;
+  color: #808080;
+  font-size: 1.25rem; /* 20px */
+  width: 60%;
+}
+
+i.added {
+  color: red;
+}
+
+.buttons {
+  margin: 20px auto;
+  padding-top: 50px;
+  font-size: 1.125rem;
+  width: 60%;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-weight: 900;
+  padding: 20px 40px;
+  margin: 0 12px;
+  border: 4px solid #000000;
+  color: #000000;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+a.cart {
+  color: #ffffff;
+  background-color: #000000;
+}
