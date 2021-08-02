@@ -1,6 +1,6 @@
 body {
-  width: 2480px;
-  height: 1196px;
+  /* width: 2480px;
+  height: 1196px; */
   font-family: "Mulish", sans-serif;
 }
 
@@ -15,13 +15,24 @@ section {
   margin: 30px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h3 {
   margin-top: 37px;
   font-size: 1.6875rem; /* 27px */
 }
 
-.action span {
-  padding: 0 20px;
+.actions {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.actions p {
+  margin: 0 20px;
 }
 
 i.fa-star {
@@ -32,7 +43,7 @@ i.fa-heart {
   color: #e9ecef;
 }
 
-.action,
+.actions,
 .short-description {
   margin: 20px auto;
   color: #808080;
@@ -45,17 +56,20 @@ i.added {
 }
 
 .buttons {
+  display: flex;
+  justify-content: space-around;
   margin: 20px auto;
-  padding-top: 50px;
-  font-size: 1.125rem;
+  padding: 50px 0;
+  font-size: 1.125rem; /* 20px */
   width: 60%;
 }
 
 .buttons a {
   text-decoration: none;
+  text-shadow: 1px 1px #000000;
   font-weight: 900;
-  padding: 20px 40px;
-  margin: 0 12px;
+  padding: 10px 40px;
+  margin: 0 5px;
   border: 4px solid #000000;
   color: #000000;
 }
