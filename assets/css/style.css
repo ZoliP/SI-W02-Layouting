@@ -35,6 +35,9 @@ h3 {
   margin: 0 20px;
 }
 
+i {
+  padding: 0 2px;
+}
 i.fa-star {
   color: #f69c2d;
 }
